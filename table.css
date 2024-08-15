@@ -1,13 +1,44 @@
+html {
+    font-size:20px;
+}
+
+
+#mern-group {
+    border-color: brown; 
+ }
 table {
     border: 1px dotted black;
 }
 
-.heading {
+table tr td:first-child {
     background-color: black;
     color: white;
-    border: 5px dashed red;
+    border: 5px dashed red; 
 }
+
+table tr td:last-child {
+    background-color: black;
+    color: white;
+    border: 5px dashed green; 
+}
+
+table tr td:nth-child(even){
+    background-color: black;
+    color: white;
+    border: 5px dashed green; 
+}
+
 
 .name {
     color: green;
+}
+
+.name:hover {
+    font-size: 1.2em;
+    color: red;
+}
+
+[type="heading"] {
+    background-color: blueviolet;
+    color: white;
 }
