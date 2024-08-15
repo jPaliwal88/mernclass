@@ -1,0 +1,13 @@
+p {
+    
+    color: red;
+    font-size: 40px;
+    font-weight: normal;
+    border: 1px solid black;
+    text-decoration: underline;
+}
+
+p {
+    color: green;
+
+}
